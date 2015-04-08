@@ -1,0 +1,163 @@
+/*this is my style page*/
+
+body {
+	background-image: url("images/utensils.jpg");
+	background-color: #dbd8d8;
+}
+
+div.header {
+	text-align: center;
+	padding-left: 220px;
+	background-color: white;
+	font: small-caps 85px courier;
+	white-space: nowrap;
+}
+
+a.header {
+	text-decoration: none;
+	color: black;
+}
+
+.aboutme {
+	padding-left: 220px;
+	background-color: black;
+	text-align: right;
+}
+
+#socialmediabar {
+	position: fixed;
+	bottom: 0px;
+  	left: 0;
+  	z-index: 9999;
+  	width: 100%;
+  	height: 60px;
+  	clear: left;
+  	background-color: black;
+}
+
+.nav {
+	list-style: none;
+	padding: 0px;
+}
+
+ul.nav li {
+	display: inline;
+}
+
+.medialink {
+	display: inline;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	font: small-caps 30px courier;
+}
+
+a.medialink:hover {
+	display: inline;
+	text-decoration: none;
+	background-color: black;
+	color: #8daad1;
+	font: small-caps 30px courier;
+}
+
+.menu {
+	text-decoration: none;
+	color: black;
+	font: small-caps 50px courier;
+}
+
+a.menu:hover {
+	text-decoration: none;
+	color: white;
+	font: small-caps 50px courier;
+}
+
+.biolink {
+	text-decoration: none;
+	color: white;
+	font: small-caps 35px courier;
+}
+
+a.biolink:hover {
+	text-decoration: none;
+	color: white;
+	font: small-caps 175% courier;
+}
+
+div.box1det {
+	display: inline-block;
+	float: left;
+	position: fixed;
+	top: 0px;
+  	left: 0;
+  	z-index: 9999;
+	background-color: grey;
+	width: 200px;
+	height: 1000px;
+	font: small-caps 30px courier;
+}
+
+/*main page*/
+
+div.main {
+	display: inline-block;
+	float: left;
+	padding-left: 250px;
+	text-align: center;
+	background-color: #dbd8d8;
+	width: 80%;
+	height: 100%;
+	font: small-caps 32px courier;
+}
+
+#maingallery {
+	display: inline;
+	float: left;
+	padding: 50px 50px 50px 50px;
+	height: 200px;
+}
+
+
+/*aboutme*/
+
+div.biopage {
+	display: inline-block;
+	float: left;
+	padding-left: 250px;
+	padding-right: 100px;
+	background-color: #dbd8d8;
+	width: 300px;
+	height: 400px;
+	text-transform: uppercase;
+	color: navy;
+	font: 23px courier;
+}
+
+div.biopage2 {
+	display: inline-block;
+	float: left;
+	padding-left: 200px;
+	width: 300px;
+	height: 300px;
+}
+
+#bioimage {
+	width: 350px;
+}
+
+/*cook*/
+
+div.cook {
+	float: left;
+	background-color: #dbd8d8;
+	padding-left: 200px;
+	padding-right: 30px;
+	width: 800px;
+	height: 2000px;
+	color: black;
+	font: 18px courier;
+}
+
+#pizzaparty {
+	font: small-caps bolder 40px courier;
+}
